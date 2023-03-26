@@ -1,0 +1,29 @@
+<nav
+  class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900"
+>
+  <div class="container flex flex-wrap items-center justify-between mx-auto">
+    <a routerLink="/" class="flex items-center">
+      <span
+        class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"
+        >BookStore</span
+      >
+    </a>
+
+    <div class="w-full block w-auto" id="navbar-default">
+      <ul
+        class="flex md:flex-row md:space-x-8 mt-0 text-sm font-medium border-0 bg-white dark:bg-gray-800 dark:bg-gray-900 dark:border-gray-700"
+      >
+        <ng-container *ngFor="let link of links">
+          <li>
+            <a
+              [routerLink]="link.route"
+              class="block py-2 px-1 rounded bg-transparent text-blue-700 p-0 dark:text-white"
+              aria-current="page"
+              >{{ link.label }}</a
+            >
+          </li>
+        </ng-container>
+      </ul>
+    </div>
+  </div>
+</nav>
