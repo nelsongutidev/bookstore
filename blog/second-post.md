@@ -1,7 +1,7 @@
 ---
 title: "Second Post"
 description: "My second post for out recently created blog"
-published: true
+date: Jan 22, 2023
 ---
 
 # Second Post

@@ -1,7 +1,7 @@
 ---
 title: "First Post"
 description: "My first post for out recently created blog"
-published: true
+date: Jan 12, 2023
 ---
 
 # First Post
