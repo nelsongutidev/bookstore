@@ -15,9 +15,7 @@ export class BlogListComponent {
   constructor(private scully: ScullyRoutesService) {}
   posts$: Observable<ScullyRoute[]> = this.scully.allRoutes$.pipe(
     map((routes: any[]) =>
-      routes.filter((route: { route: string }) =>
-        route.route.startsWith('/blog/')
-      )
+      routes.filter((route) => route.route.startsWith('/blog/'))
     )
   );
 }
