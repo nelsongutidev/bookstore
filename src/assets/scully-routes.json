@@ -1,1 +1,1 @@
-[{"route":"/"},{"route":"/about"},{"route":"/contact"},{"route":"/events"}]
+[{"route":"/"},{"route":"/about"},{"route":"/contact"},{"route":"/events"},{"route":"/blog"},{"route":"/blog/first-post","title":"First Post","description":"My first post for out recently created blog","published":true,"sourceFile":"first-post.md"},{"route":"/blog/second-post","title":"Second Post","description":"My second post for out recently created blog","published":true,"sourceFile":"second-post.md"}]

@@ -23,5 +23,9 @@ export class NavigationComponent {
       label: 'Contact',
       route: 'contact',
     },
+    {
+      label: 'Blog',
+      route: 'blog',
+    },
   ];
 }
