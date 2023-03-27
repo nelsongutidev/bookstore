@@ -32,6 +32,10 @@ const routes: Routes = [
     path: 'blog/:slug',
     component: BlogPostComponent,
   },
+  {
+    path: 'books/:bookId',
+    component: BlogPostComponent,
+  },
 ];
 
 @NgModule({

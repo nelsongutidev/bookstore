@@ -1,0 +1,11 @@
+identifier: lffcqaf2i254i2r7
+appPort: 1864
+staticPort: 1668
+reloadPort: 2667
+hostName: localhost
+projectName: bookstore
+homeFolder: /Users/nelsongutierrez/Documents/scullyproject/bookstore
+distFolder: ./dist/bookstore
+outDir: /Users/nelsongutierrez/Documents/scullyproject/bookstore/dist/static
+handle404: ''
+allowErrorCollect: false

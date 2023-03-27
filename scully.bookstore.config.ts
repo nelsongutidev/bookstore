@@ -18,5 +18,12 @@ export const config: ScullyConfig = {
         folder: './blog',
       },
     },
+
+    '/books/:bookId': {
+      type: 'contentFolder',
+      bookId: {
+        folder: './books',
+      },
+    },
   },
 };
